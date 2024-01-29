@@ -1,0 +1,48 @@
+.Services{
+    width: 100%;
+    padding: 6rem 1rem;
+    background: black;
+}
+
+.Card-Container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+.Card{
+    border: 1px solid #eee;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.Card:hover{
+    background-color: #141414;
+    
+}
+.Card h3{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.Card p{
+    padding: 10px 0;
+
+}
+.Card .btn{
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+.Card .btn:hover{
+    opacity: 0.7;
+}
+@media screen and (max-width: 640px) {
+    .Card-Container{
+        max-width: 1140px;
+        margin: auto;
+        /* display: grid; */
+        grid-template-columns: 1fr;
+    
+    }
+}

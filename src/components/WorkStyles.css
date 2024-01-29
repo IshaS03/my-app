@@ -1,0 +1,46 @@
+.Project-Heading {
+  text-align: Center;
+  padding: 4rem 0 2rem 2rem;
+}
+.Project-Container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 4rem;
+}
+.Project-Card {
+    border-radius: 10px;
+  background: #141414;
+  padding: 1.2rem 1rem;
+}
+.Project-Card img {
+  width: 100%;
+}
+.Project-Title {
+  color: white;
+  padding: 1rem 0;
+}
+.Project-Details p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.Project-Card .btn {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.Project-Card .btn:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 640px) {
+  .Project-Container {
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

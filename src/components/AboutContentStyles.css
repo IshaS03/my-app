@@ -1,0 +1,46 @@
+.About {
+  width: 100%;
+  padding: 2rem 1rem;
+  background: black;
+}
+.About-Container {
+  max-width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+}
+.About-Card {
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.About-Card img {
+  width: 100%;
+  border-radius: 20px;
+}
+.About-Card p{
+    font-size: 1.5rem;
+}
+.About-Card h2{
+    margin: 1.2rem 0 0 0;
+}
+.About-Card ul{
+    padding: 0.5rem 0;
+}
+.About-Card ul li{
+    padding: 0.3rem;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 740px) {
+    .About-Container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+      }
+    
+}

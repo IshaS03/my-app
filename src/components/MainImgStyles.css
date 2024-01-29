@@ -1,0 +1,60 @@
+.MaskImg{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.intro-Img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.MaskImg::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.Main{
+    width: 100%;
+    height: 100%;
+}
+.Main .Content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+.Main .Content h1{
+    font-size: 3.5rem;
+    padding: 0.6rem 0 1.5rem;
+}
+.Main .Content p{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.Content .btn{
+    margin: 1rem 0.3rem;
+}
+.Content .btn:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width:640px) {
+    .Main .Content h1{
+        font-size: 3rem;
+        /* padding: 0.6rem 0 1.5rem; */
+    }
+    .Main .Content p{
+        /* text-transform: uppercase;
+        font-weight: 400; */
+        font-size: 2rem;
+    }
+}

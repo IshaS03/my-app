@@ -1,5 +1,12 @@
 #this webapp is made using reactjs
+here are the screencshots of the portfolio because there is some problem in deployment on github pages
+
 ![React App - Google Chrome 2_20_2024 11_21_14 PM](https://github.com/IshaS03/my-app/assets/121427020/766574d3-0ceb-40cc-bd9e-582a13780bfe)
+![React App - Google Chrome 2_20_2024 11_23_03 PM](https://github.com/IshaS03/my-app/assets/121427020/a950c4ef-3d40-4d5a-88f6-dc914ea34c4b)
+![React App - Google Chrome 2_20_2024 11_23_18 PM](https://github.com/IshaS03/my-app/assets/121427020/19d63e59-47b4-45b0-a4ab-03553e6fbe5c)
+![React App - Google Chrome 2_20_2024 11_23_24 PM](https://github.com/IshaS03/my-app/assets/121427020/e8280501-0e41-467a-8f5f-a10ec6751c33)
+![React App - Google Chrome 2_20_2024 11_23_39 PM](https://github.com/IshaS03/my-app/assets/121427020/bc4b2637-b276-4376-99be-3722855ea6dd)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
